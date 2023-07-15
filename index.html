@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="devchallenges.png" />
+  <title>404 Not Found</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      color: #333;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    p {
+      color: #4f4f4f;
+      margin-bottom: 1.5rem;
+    }
+    img {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: 0 auto;
+    }
+    header {
+      font-family: 'Inconsolata', monospace;
+      font-weight: 700;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      padding: 1.5rem 0;
+    }
+    main {
+      font-family: 'Space Mono', monospace;
+      padding: 4rem 0;
+    }
+    main .main-info > * {
+      max-width: 400px;
+    }
+    footer {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+    footer a {
+      font-weight: 700;
+    }
+    .container {
+      max-width: 1200px;
+      padding: 0 1.5rem;
+      margin: 0 auto;
+    }
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .flex > * {
+      flex: 1;
+      min-width: 300px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      text-transform: uppercase;
+    }
+    @media screen and (max-width: 680px) {
+      main {
+        padding: 2rem 0;
+      }
+      footer {
+        position: static;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <span>404 Not Found</span>
+    </div>
+  </header>
+  <main>
+    <div class="container flex">
+      <div class="main-img">
+        <img src="./Scarecrow.png" alt="Scare Crow">
+      </div>
+      <div class="main-info">
+        <h1>I have bad news for you</h1>
+        <p>The page you are looking for might be removed or is temporarily unavailable</p>
+        <a href="#" class="btn">Back To Homepage</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <span>Created by <a href="https://www.facebook.com/ashikujjaman.himel" target="_blank">Ashik-Himel</a> - <a
+        href="https://devchallenges.io" target="_blank">devchallenges.io</a></span>
+    </div>
+  </footer>
+</body>
+
+</html>
